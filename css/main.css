@@ -414,6 +414,7 @@ html {
   .footer .sm-links {
     -ms-flex-preferred-size: 45%;
         flex-basis: 45%;
+    text-align: center;
   }
   .footer .sm-links__title {
     font-size: 2rem;
@@ -427,7 +428,6 @@ html {
   .footer .sm-links {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    padding: 10px 0;
   }
   .footer .sm-links__title {
     text-align: center;

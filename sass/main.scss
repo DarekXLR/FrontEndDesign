@@ -340,6 +340,7 @@ html {
         flex-basis: 30%;
         font-family: $special-font;
 
+
         &__title {
 
             font-size: 2.8rem;
@@ -353,10 +354,12 @@ html {
             text-indent: 40px;
             font-size: 1.8rem;
             line-height: 2.5rem;
+
         }
 
         @media(max-width:860px) {
             flex-basis: 45%;
+            text-align: center;
 
             &__title {
                 font-size: 2rem;
@@ -369,7 +372,7 @@ html {
 
         @media(max-width:361px) {
             flex-basis: 100%;
-            padding: 10px 0;
+
 
             &__title {
                 text-align: center;
