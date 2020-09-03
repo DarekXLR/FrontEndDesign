@@ -398,7 +398,7 @@ html {
 }
 
 .footer .sm-links__title {
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin: 20px 0 15px;
   text-transform: uppercase;
   font-weight: 400;
@@ -408,6 +408,19 @@ html {
   text-indent: 40px;
   font-size: 1.8rem;
   line-height: 2.5rem;
+}
+
+@media (max-width: 860px) {
+  .footer .sm-links {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+  }
+  .footer .sm-links__title {
+    font-size: 2rem;
+  }
+  .footer .sm-links__info {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 361px) {
