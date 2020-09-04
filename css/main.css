@@ -33,7 +33,6 @@ html {
   -ms-flex-preferred-size: 150px;
       flex-basis: 150px;
   height: 80px;
-  padding-left: 10px;
 }
 
 .logo__image {
@@ -175,7 +174,6 @@ html {
   background-color: #1f1f18;
   font-family: "pt sans", "roboto", arial, sans-serif;
   height: 70px;
-  margin-top: 10px;
   padding: 15px 50px 15px 80px;
 }
 

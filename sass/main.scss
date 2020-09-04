@@ -38,7 +38,7 @@ html {
 .logo {
     flex-basis: 150px;
     height: 80px;
-    padding-left: 10px;
+
 
     &__image {
         display: block;
@@ -146,7 +146,7 @@ html {
     background-color: rgb(31, 31, 24);
     font-family: $special-font;
     height: 70px;
-    margin-top: 10px;
+    // margin-top: 10px;
     padding: 15px 50px 15px 80px;
 
     @media(max-width:639px) {
